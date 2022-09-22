@@ -1,0 +1,9 @@
+Number of disks Real time
+3  discos -   0.000003
+5  discos -   0.000005
+10 discos -   0.000031
+20 discos -   0.019471
+30 discos -  18.314533
+33 discos - 157.393610
+34 discos - 310.976094
+35 discos - 678.831753

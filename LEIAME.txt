@@ -1,0 +1,26 @@
+Este é o Trabalho da Torre de Hanoi realizado pelo aluno Renzo Fraga Loureiro.
+Para compilar meu código, é necessário colocar todos os arquivos na pasta
+C:\cygwin64\home\usuario ou seja lá onde você tiver seu Pathing do cygwin configurado
+para encontrar esses arquivos. Após depositar os arquivos .c e .h nesta pasta,
+é necessário executar o cygwin, com o comando 
+gcc -Wall -pedantic -o executavel main.c pilha.c funcoes_hanoi.c pilha.h funcoes_hanoi.h 
+isso irá criar um executavel linux na pasta compilando o programa. Após isso, basta
+digitar ./executavel (numero de discos) -v no terminal para rodar o programa. Com o -v
+o programa irá mostrar todas as iterações, a torre inicial e a torre ao fim da solução.
+Se você retirar o -v do fornecimento de argumentos, ele irá rodar o código sem mostrar
+nada e lhe devolverá o tempo de execução.
+
+Vale lembrar que o txt de resultados pode não representar a verdadeira eficiência do meu
+código, já que ele foi rodado em um intel core i3-7100U 2.40GHz, um processador
+fraco se comparado ao dos demais alunos.
+
+Algumas funções foram usadas do material de apoio que o professor forneceu 
+(link da Wikipédia no PDF de apresentação do trabalho 1), como por
+exemplo, o algoritmo que de fato soluciona a torre de Hanoi recursivamente pode ser
+encontrado na Wikipédia, com a diferença de que eu o traduzi para o C.
+http://en.wikipedia.org/wiki/Tower_of_Hanoi
+
+também foi usado nesse trabalho um pedaço de código do professor, que se refere
+a parte do algoritmo que lê o tempo de execução do programa. Esse código
+pode ser encontrado em 
+https://ava.cefor.ifes.edu.br/pluginfile.php/2728269/mod_resource/content/2/tempo.c
